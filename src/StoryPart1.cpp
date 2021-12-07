@@ -10,6 +10,9 @@
 
 using namespace std;
 
+void hare();
+void tortoise();
+
 int main()
 {
     initwindow(screenWidth+3, screenHeight+1, "",-6,-4);
@@ -21,4 +24,14 @@ int main()
     getch();
     closegraph();
     return 0;
+}
+
+void hare()
+{
+
+}
+
+void tortoise
+{
+
 }
