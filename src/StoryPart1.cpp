@@ -17,9 +17,12 @@ int main()
 {
     initwindow(screenWidth+3, screenHeight+1, "",-6,-4);
 
-    //Start from here
-
+    line(0, 220,screenWidth,220);
+    line(200,250,200,700); //START line
     tortoise();
+    hare();
+
+    line(1100,250,1100,700); //END line
 
     getch();
     closegraph();
@@ -28,7 +31,7 @@ int main()
 
 void hare()
 {
-
+    ellipse(120,400,0,360,80,50);
 }
 
 void tortoise()
